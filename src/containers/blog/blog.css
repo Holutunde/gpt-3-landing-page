@@ -38,20 +38,19 @@
         flex-direction: column-reverse;
     }
 
-
     .article_container_groupA {
         margin: 2rem 0;
     }
 
-    .article_container_groupA .gpt3__blog-container_article {
+    .article_container_groupA .blog_container_article {
         width: 48%;
     }
 
-    .article_container_groupA .gpt3__blog-container_article-image {
+    .article_container_groupA .blog_article_image {
         height: 250px;
     }
 
-    .article_container_groupB .gpt3__blog-container_article-image img {
+    .article_container_groupB .blog_article_image img {
         height: 250px;
     }
 }
@@ -61,7 +60,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .article_container_groupA .gpt3__blog-container_article {
+    .article_container_groupA .blog_container_article {
         width: 100%;
     }
 
